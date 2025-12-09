@@ -6,6 +6,8 @@
 
 ## Explanation
 
+This application is a shopping web application for Best-Buy. It allows customers to browse items, add them to their cart and submit orders. These orders can be processed by workers and sent to a database. The entire application is hosted on a Kubernetes cluster so that we can deploy the entire system easily. Kubernetes also allows the system to scale to meed demands, it allows us to scale only certain services without needing to scale every single one, this scaling can all be done automatically. 
+
 ### Store Front
 
 The Store Front is a web application written using Vue.JS, a JavaScript framework. This is where the customers can view products, add them to their cart and send orders. 
