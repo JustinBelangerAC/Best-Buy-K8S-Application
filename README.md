@@ -80,7 +80,10 @@ This step takes a while to deploy, we start the deployment while we prep the res
         - Set the node count to `1`
         - Hit the Add button
     - Click on Review and create
-5. While the cluster deploys, continue to the other steps
+5. Set the DNS prefix
+    - for some reason it will not let you deploy if you do not set this
+    - Under the networking tab, set the DNS name prefix to a prefix of your choice
+6. While the cluster deploys, continue to the other steps
 
 ### Clone the repos and push the Docker Images
 
